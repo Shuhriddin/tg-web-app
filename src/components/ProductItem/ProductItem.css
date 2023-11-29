@@ -1,0 +1,23 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #212523;
+    padding: 15px;
+    width: 170px;
+}
+
+.img {
+    width: 100%;
+    background: lightgrey;
+    height: 100px;
+    margin: 0 auto;
+    background: #212523;
+}
+
+.description {
+    font-size: 0.8em;
+}
+
+.add-btn {
+    width: 100%;
+}
