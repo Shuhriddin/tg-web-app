@@ -1,7 +1,8 @@
-import React, {useCallback, useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import './ProductList.css';
 import ProductItem from "../ProductItem/ProductItem";
 import {userTelegram} from "../../hooks/userTelegram";
+import {useCallback, useEffect} from 'react';
 
 const products = [
     {id: '1', title: "Джинсы", price: 5000, description: 'Синего света, прямые'},
@@ -15,7 +16,7 @@ const products = [
 ]
 
 
-const getTotalPrice = () => {
+const getTotalPrice = (items = []) => {
     return items.reduce((acc, item)=> {
         return acc += item.price
     })
@@ -30,7 +31,7 @@ const ProductList = () => {
             totalPrice: getTotalPrice(addedItems),
             queryId,
         }
-        fetch('http://85.119.146.179:8000/web-data', {
+        fetch('http://localhost:8000', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
