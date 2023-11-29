@@ -14,17 +14,9 @@ h3 {
     width: 100%;
     padding: 10px;
     margin-top: 15px;
-    border-radius: 8px;
-    border: 1px solid #CACACA;
-}
-
-::placeholder {
-    color: #000;
 }
 
 .select {
     padding: 10px;
     margin-top: 15px;
-    border-radius: 8px;
-    border: 1px solid #CACACA;
 }
