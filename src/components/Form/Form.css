@@ -3,7 +3,6 @@
     flex-direction: column;
     width: 100%;
     padding: 20px;
-    background: #1d2127;
 }
 
 h3 {
@@ -20,10 +19,12 @@ h3 {
 }
 
 ::placeholder {
-    color: #fff;
+    color: #000;
 }
 
 .select {
     padding: 10px;
     margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #CACACA;
 }

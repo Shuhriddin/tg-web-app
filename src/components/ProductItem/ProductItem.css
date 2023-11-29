@@ -4,21 +4,20 @@
     border: 1px solid #212523;
     padding: 15px;
     width: 170px;
+    border-radius: 8px;
 }
 
 .img {
     width: 100%;
-    background: lightgrey;
     height: 100px;
     margin: 0 auto;
-    background: #212523;
+    background: #145034;
     /*background-image: url("");*/
 }
 
 .title {
     padding: 0 5px;
     font-size: 18px;
-    color: greenyellow;
     font-weight: bolder;
 }
 
