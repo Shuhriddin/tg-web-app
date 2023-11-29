@@ -48,7 +48,6 @@ const Form = () => {
         setSubject(e.target.value)
     }
 
-
     return (
         <div className={'form'}>
             <h3>Введите ваши данные</h3>
