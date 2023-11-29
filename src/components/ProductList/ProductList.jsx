@@ -21,7 +21,7 @@ const getTotalPrice = () => {
     })
 }
 const ProductList = () => {
-    const [addedItemes, setAddedItems] = useState([]);
+    const [addedItems, setAddedItems] = useState([]);
     const {tg} = userTelegram();
 
     const onAdd = (product) => {
